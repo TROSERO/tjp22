@@ -1,0 +1,143 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 80%;
+    margin: 0 auto;
+    font-family: 'Manrope', sans-serif;
+}
+
+header .topper {
+    border: 2px solid #155EEF;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+ .text {
+    color: #155EEF;
+    font-size: 32px;
+    font-weight: 700;
+    margin: auto 0;
+    position: relative;
+    bottom: 15px;
+    margin-bottom: 2%;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+    font-size: 22px;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.btn-top {
+    /* gap: 24px; */
+    color: #155EEF;
+    border-color: #155EEF;
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 15px;
+    background-color: white;
+}
+
+.one {
+    border: 2px solid #155EEF;
+    margin: 10px 0;
+    border-radius: 6px; 
+}
+
+section .article-one {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 30px 20px; 
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2E3A53;
+    ;
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: 600;
+    color: #155EEF;
+    margin-bottom: 32px;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 500;
+    color: #2E3A53;
+    margin-bottom: 32px;
+    word-spacing: 8px;
+}
+
+.btn-two {
+    background-color: #155EEF;
+    color: aliceblue;
+    border-radius: 8px;
+    padding: 6px 12px;
+    border: 0;
+}
+
+.two {
+    border: 2px solid #155EEF;
+    border-radius: 6px;
+    margin: 50px 0;
+}
+
+.article-two {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 50px 20px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+
+footer {
+    border: 2px solid #155EEF;
+    border-radius: 6px;
+    padding: 0 20px; 
+    margin: 50px 0;
+}
+
+.end {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.end-text {
+    font-size: 24px;
+    font-weight: 500;   
+}
+
+
